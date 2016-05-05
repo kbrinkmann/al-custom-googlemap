@@ -26,7 +26,7 @@ License: GPL2
 */
 
 
-require_once( ABSPATH.PLUGINDIR."/mypluginbase/mypluginbase.php" );
+require_once(WP_CONTENT_DIR . '/plugins/mypluginbase/mypluginbase.php');
 
 
 class CustomGoogleMap extends MyPlugin {
